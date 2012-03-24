@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="index-page" lang="ru">
+<html lang="ru" id="index-page" class="model">
 <head>
 	<link rel="stylesheet" href="t/common/common.css"/>
 	<title>Nikavi</title>
@@ -23,19 +23,13 @@ Some content.
 <script>
 ;(function(){
 var mCode = 'm'.charCodeAt(0)
-var state = false
 var html = document.documentElement
 function toggle (e)
 {
 	if (e.keyCode != mCode)
 		return
 	
-	state = !state
-	
-	if (state)
-		html.classList.add('model')
-	else
-		html.classList.remove('model')
+	html.classList.toggle('model')
 }
 document.addEventListener('keypress', toggle, false)
 })();
