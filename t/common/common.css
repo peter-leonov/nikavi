@@ -32,3 +32,8 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #header .menu .item .link:hover { color: #4e91f5; }
 
 #index-page #header .logo { cursor: default; }
+
+
+/* markuper helpers */
+html.model #common-main-wrapper { background-color: rgba(255,255,255,0.1); }
+html.model #header { background-color: rgba(0,255,0,0.1); }
