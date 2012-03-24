@@ -18,3 +18,17 @@ html{background:#fff;}
 html { overflow-y: scroll; height: 100%; }
 body { min-width: 900px; position: relative; min-height: 100%; }
 
+
+/* art starts here */
+
+body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, sans-serif; font-size: 14px; }
+
+#common-main-wrapper { width: 900px; margin: 0 auto; }
+
+#header { position: relative; height: 84px; }
+#header .logo { position: absolute; bottom: -15px; left: -12px; overflow: hidden; background: url(common.png) 10px 10px; width: 113px; height: 64px; text-indent: -1000px; }
+#header .menu { position: absolute; bottom: -3px; right: 0; color: #67778e; }
+#header .menu .item { display: inline; margin-left: 28px; }
+#header .menu .item .link:hover { color: #4e91f5; }
+
+#index-page #header .logo { cursor: default; }
