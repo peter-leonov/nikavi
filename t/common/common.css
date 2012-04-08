@@ -30,8 +30,8 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #header .logo i { position: absolute; left: 10px; top: 10px; width: 97px; height: 44px; background: url(common.png) 0 0 no-repeat; text-indent: -1000px; }
 #header .logo:hover i { background-position: 0 -50px; }
 #header .logo:active i { background-position: 0 -100px; }
-#header .menu { position: absolute; bottom: -3px; right: 0; color: #67778e; }
-#header .menu .item { display: inline; margin-left: 28px; }
+#header .menu { position: absolute; bottom: -2px; right: 0; color: #67778e; }
+#header .menu .item { display: inline; margin-left: 22px; }
 #header .menu .item .link:hover { color: #4e91f5; }
 
 
