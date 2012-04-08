@@ -26,7 +26,10 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #common-main-wrapper { position: relative; z-index: 10; width: 900px; margin: 0 auto; }
 
 #header { position: relative; height: 84px; }
-#header .logo { position: absolute; bottom: -15px; left: -12px; overflow: hidden; background: url(common.png) 10px 10px; width: 113px; height: 64px; text-indent: -1000px; }
+#header .logo { position: absolute; bottom: -15px; left: -12px; width: 113px; height: 64px; }
+#header .logo i { position: absolute; left: 10px; top: 10px; width: 93px; height: 44px; background: url(common.png) 0 0 no-repeat; text-indent: -1000px; }
+#header .logo:hover i { background-position: 0 -50px; }
+#header .logo:active i { background-position: 0 -100px; }
 #header .menu { position: absolute; bottom: -3px; right: 0; color: #67778e; }
 #header .menu .item { display: inline; margin-left: 28px; }
 #header .menu .item .link:hover { color: #4e91f5; }
