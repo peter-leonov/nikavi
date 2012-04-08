@@ -37,7 +37,7 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 
 #photo-set-list { margin: 31px -30px 0 -15px; }
 #photo-set-list .item { float: left; }
-#photo-set-list .photo-set { display: block; position: relative; width: 280px; height: 212px; padding: 10px 15px; }
+#photo-set-list .photo-set { display: block; position: relative; width: 280px; height: 212px; padding: 10px 15px; transition: opacity 0.15s; -webkit-transition: opacity 0.15s; -moz-transition: opacity 0.15s; -o-transition: opacity 0.15s; }
 #photo-set-list:hover .photo-set { opacity: 0.45; }
 #photo-set-list .photo-set:hover { opacity: 1; }
 #photo-set-list .photo-set .photo { display: block; width: 280px; height: 180px; border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.4); }
