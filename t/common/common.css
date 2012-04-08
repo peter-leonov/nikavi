@@ -39,7 +39,7 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #photo-set-list .item { margin: 0 30px 20px 0; }
 #photo-set-list .photo-set { display: block; position: relative; width: 280px; height: 212px; }
 #photo-set-list .photo-set .photo { display: block; width: 280px; height: 180px; border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.4); }
-#photo-set-list .photo-set .count { display: block; position: absolute; right: 0; bottom: 0; height: 16px; padding: 0 9px; border-radius: 8px; font-size: 11px; line-height: 16px; color: #677282; background: url(common.png) 100px 0; box-shadow: 0 1px 0 rgba(255,255,255,0.06), inset 0 0 0 1px rgba(15,25,38,0.66) }
+#photo-set-list .photo-set .count { position: absolute; right: 0; bottom: 0; height: 16px; padding: 0 9px; border-radius: 8px; font-size: 11px; line-height: 16px; color: #677282; background: url(common.png) 100px 0; box-shadow: 0 1px 0 rgba(255,255,255,0.06), inset 0 0 0 1px rgba(15,25,38,0.66) }
 
 
 #index-page #header .logo { cursor: default; }
