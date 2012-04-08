@@ -46,7 +46,7 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #photo-set-list .photo-set .count { position: absolute; right: 15px; bottom: 12px; min-width: 10px; height: 16px; padding: 0 8px; border-radius: 8px; -moz-border-radius: 8px; font-size: 11px; line-height: 16px; color: #677282; text-align: center; background: url(common.png) 100px 0; box-shadow: 0 1px 0 rgba(255,255,255,0.06), inset 0 0 0 1px rgba(15,25,38,0.66); -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.06), inset 0 0 0 1px rgba(15,25,38,0.66); }
 #photo-set-list .photo-set:hover .count { background: #4e91f5; box-shadow: none; -moz-box-shadow: none; color: #000; }
 
-#index-page #header .logo { cursor: default; }
+/*#index-page #header .logo { cursor: default; }*/
 
 
 #common-outerspace-wrapper { overflow: hidden; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; }
