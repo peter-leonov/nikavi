@@ -54,7 +54,7 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #thumbs-list .photo-preview:hover { opacity: 1; }
 #thumbs-list .photo-preview .photo { display: block; width: 142px; height: 100px; -moz-border-radius: 2px; border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); }
 
-#controls { position: relative; height: 20px; margin: 18px 0 0; }
+#controls { position: relative; height: 20px; margin: 21px 0 0; }
 #controls .caption { position: absolute; left: 300px; right: 300px; text-align: center; font-size: 14px; color: #677282; }
 #controls .playback { position: absolute; left: 0; top: -4px; }
 #controls .playback .prev { display: inline-block; width: 18px; height: 27px; padding-right: 4px; background: url(common.png) no-repeat -100px -125px; }
