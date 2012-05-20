@@ -16,7 +16,7 @@ html{background:#fff;}
 
 /* make body a sane containter */
 html { overflow-y: scroll; height: 100%; }
-body { min-width: 900px; position: relative; min-height: 100%; }
+body { min-width: 940px; position: relative; min-height: 100%; }
 
 
 /* art starts here */
