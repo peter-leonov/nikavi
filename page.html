@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru" id="index-page" class="">
+<head>
+	<link rel="stylesheet" href="t/common/common.css"/>
+	<title>Portraits — Nikavi</title>
+</head>
+<body>
+<div id="common-main-wrapper">
+
+<div id="header">
+	<a href="" class="logo"><i>Nikavi</i></a>
+	
+	<ul class="menu section">
+		<li class="item"><a class="link" href="thumbs.html">Portraits</a></li>
+		<li class="item"><a class="link" href="thumbs.html">Babys</a></li>
+		<li class="item"><a class="link" href="thumbs.html">Landscapes</a></li>
+		<li class="item"><a class="link" href="thumbs.html">Ideas</a></li>
+		<li class="item"><a class="link" href="thumbs.html">Retouch</a></li>
+		<li class="item"><a class="link" href="thumbs.html">Design</a></li>
+	</ul>
+	
+	<ul class="menu">
+		<li class="item"><a class="link" href="blog/">Blog</a></li>
+		<li class="item"><a class="link" href="contacts/">Contacts</a></li>
+		<li class="item"><a class="link" href="share/">Share</a></li>
+	</ul>
+</div>
+
+<div id="big-photo">
+	<div class="photo" style="background-image: url(portraits/3.jpg)"></div>
+</div>
+
+<div id="controls">
+	<div class="playback"><a class="prev"></a><a class="play"></a><a class="next"></a></div>
+	<div class="caption">3 of 28</div>
+	<div class="switch-view"></div>
+</div>
+
+</div id="common-main-wrapper">
+
+<div id="common-outerspace-wrapper">
+<div class="kinda-main-wrapper">
+	<div id="logo-light"></div>
+	<img id="markup-model" src="thumbs-model.png">
+</div class="kinda-main-wrapper">
+</div id="common-outerspace-wrapper">
+
+
+<script>
+;(function(){
+var mCode = 'm'.charCodeAt(0)
+var html = document.documentElement
+function toggle (e)
+{
+	if (e.keyCode != mCode)
+		return
+	
+	html.classList.toggle('model')
+}
+document.addEventListener('keypress', toggle, false)
+
+function playpause (e)
+{
+	this.classList.toggle('playing')
+}
+document.querySelector('#controls .play').addEventListener('click', playpause, false)
+})();
+</script>
+</body>
+</html>
