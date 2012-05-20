@@ -33,6 +33,7 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #header .menu { position: absolute; bottom: -2px; right: 0; color: #67778e; }
 #header .menu .item { display: inline; margin-left: 22px; }
 #header .menu .item .link:hover { color: #4e91f5; }
+#header .menu.section { right: 254px; }
 
 
 #photo-set-list { margin: 31px -30px 0 -15px; }
