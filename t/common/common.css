@@ -49,6 +49,8 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #thumbs-list { margin: 36px -6px 0 -6px; }
 #thumbs-list .item { float: left; }
 #thumbs-list .photo-preview { display: block; position: relative; width: 142px; height: 100px; padding: 5px 5px 5px 5px; transition: opacity 0.15s; -webkit-transition: opacity 0.15s; -moz-transition: opacity 0.15s; -o-transition: opacity 0.15s; }
+#thumbs-list:hover .photo-preview { opacity: 0.45; }
+#thumbs-list .photo-preview:hover { opacity: 1; }
 #thumbs-list .photo-preview .photo { display: block; width: 142px; height: 100px; -moz-border-radius: 2px; border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); }
 
 #index-page #header .logo { cursor: default; }
