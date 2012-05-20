@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru" id="index-page" class="">
+<head>
+	<link rel="stylesheet" href="t/common/common.css"/>
+	<title>Portraits — Nikavi</title>
+</head>
+<body>
+<div id="common-main-wrapper">
+
+<div id="header">
+	<a href="" class="logo"><i>Nikavi</i></a>
+	
+	<ul class="menu">
+		<li class="item"><a class="link" href="blog/">Blog</a></li>
+		<li class="item"><a class="link" href="contacts/">Contacts</a></li>
+		<li class="item"><a class="link" href="share/">Share</a></li>
+	</ul>
+</div>
+
+</div id="common-main-wrapper">
+
+<div id="common-outerspace-wrapper">
+<div class="kinda-main-wrapper">
+	<div id="logo-light"></div>
+	<img id="markup-model" src="index-model.png">
+</div class="kinda-main-wrapper">
+</div id="common-outerspace-wrapper">
+
+
+<script>
+;(function(){
+var mCode = 'm'.charCodeAt(0)
+var html = document.documentElement
+function toggle (e)
+{
+	if (e.keyCode != mCode)
+		return
+	
+	html.classList.toggle('model')
+}
+document.addEventListener('keypress', toggle, false)
+})();
+</script>
+</body>
+</html>
