@@ -61,6 +61,8 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #controls .playback .prev:hover { background: url(common.png) no-repeat -150px -125px; }
 #controls .playback .play { display: inline-block; width: 27px; height: 27px; background: url(common.png) no-repeat -100px -25px; }
 #controls .playback .play:hover { background: url(common.png) no-repeat -150px -25px; }
+#controls .playback .play.playing { background: url(common.png) no-repeat -100px -75px; }
+#controls .playback .play.playing:hover { background: url(common.png) no-repeat -150px -75px; }
 #controls .playback .next { display: inline-block; width: 18px; height: 27px; padding-left: 4px; background: url(common.png) no-repeat -100px -175px; }
 #controls .playback .next:hover { background: url(common.png) no-repeat -150px -175px; }
 
