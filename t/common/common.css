@@ -65,6 +65,11 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #controls .playback .play.playing:hover { background: url(common.png) no-repeat -150px -75px; }
 #controls .playback .next { display: inline-block; width: 18px; height: 27px; padding-left: 4px; background: url(common.png) no-repeat -100px -175px; }
 #controls .playback .next:hover { background: url(common.png) no-repeat -150px -175px; }
+#controls .switch-view { position: absolute; right: 0; top: 0; width: 54px; height: 22px; background: url(common.png) no-repeat -200px 0; }
+#controls .switch-view:hover { background: url(common.png) no-repeat -275px 0; }
+#controls .switch-view.photo { background: url(common.png) no-repeat -200px -25px; }
+#controls .switch-view.photo:hover { background: url(common.png) no-repeat -275px -25px; }
+
 
 #big-photo { margin: 36px -5px 0 -5px; padding: 5px; overflow: hidden; }
 #big-photo .photo { display: block; width: 900px; height: 598px; -moz-border-radius: 2px; border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); }
