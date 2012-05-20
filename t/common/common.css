@@ -60,7 +60,7 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #common-outerspace-wrapper { overflow: hidden; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; }
 #common-outerspace-wrapper .kinda-main-wrapper { position: relative; width: 900px; margin: 0 auto; }
 
-#logo-light { position: absolute; top: 0; left: -260px; width: 605px; height: 368px; background: url(logo-light.png) no-repeat 0 0; opacity: 0.21 }
+#logo-light { position: absolute; top: 0; left: -260px; width: 605px; height: 368px; background: url(logo-light.png) no-repeat 0 0; opacity: 0.12 }
 
 
 
