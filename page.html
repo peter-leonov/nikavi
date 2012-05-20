@@ -64,6 +64,12 @@ function playpause (e)
 	this.classList.toggle('playing')
 }
 document.querySelector('#controls .play').addEventListener('click', playpause, false)
+
+function photo (e)
+{
+	this.classList.toggle('photo')
+}
+document.querySelector('#controls .switch-view').addEventListener('click', photo, false)
 })();
 </script>
 </body>
