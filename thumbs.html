@@ -197,6 +197,12 @@ function toggle (e)
 	html.classList.toggle('model')
 }
 document.addEventListener('keypress', toggle, false)
+
+function playpause (e)
+{
+	this.classList.toggle('playing')
+}
+document.querySelector('#controls .play').addEventListener('click', playpause, false)
 })();
 </script>
 </body>
