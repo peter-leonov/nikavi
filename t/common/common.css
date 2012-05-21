@@ -44,7 +44,7 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #photo-set-list .photo-set .photo { display: block; width: 280px; height: 180px; -moz-border-radius: 2px; border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); }
 #photo-set-list .photo-set .name { position: absolute; left: 15px; bottom: 12px; font-size: 14px; line-height: 18px; color: #67778e; }
 #photo-set-list .photo-set:hover .name { color: #4e91f5; }
-#photo-set-list .photo-set .count { position: absolute; right: 15px; bottom: 12px; min-width: 10px; height: 16px; padding: 0 8px; border-radius: 8px; -moz-border-radius: 8px; font-size: 11px; line-height: 16px; color: #677282; text-align: center; background: url(common.png) 100px 0; box-shadow: 0 1px 0 rgba(255,255,255,0.06), inset 0 0 0 1px rgba(15,25,38,0.66); -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.06), inset 0 0 0 1px rgba(15,25,38,0.66); }
+#photo-set-list .photo-set .count { position: absolute; right: 15px; bottom: 12px; min-width: 10px; height: 16px; padding: 0 8px; border-radius: 8px; -moz-border-radius: 8px; font-size: 11px; line-height: 16px; color: #677282; text-align: center; background: url(common.png) -100px 0; box-shadow: 0 1px 0 rgba(255,255,255,0.06), inset 0 0 0 1px rgba(15,25,38,0.66); -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.06), inset 0 0 0 1px rgba(15,25,38,0.66); }
 #photo-set-list .photo-set:hover .count { background: #4e91f5; box-shadow: none; -moz-box-shadow: none; color: #000; }
 
 #thumbs-list { margin: 36px -6px 0 -6px; overflow: hidden; }
