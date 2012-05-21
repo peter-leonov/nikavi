@@ -47,16 +47,16 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #photo-set-list .photo-set .count { position: absolute; right: 15px; bottom: 12px; min-width: 10px; height: 16px; padding: 0 8px; border-radius: 8px; -moz-border-radius: 8px; font-size: 11px; line-height: 16px; color: #677282; text-align: center; background: url(common.png) -100px 0; box-shadow: 0 1px 0 rgba(255,255,255,0.06), inset 0 0 0 1px rgba(15,25,38,0.66); -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.06), inset 0 0 0 1px rgba(15,25,38,0.66); }
 #photo-set-list .photo-set:hover .count { background: #4e91f5; box-shadow: none; -moz-box-shadow: none; color: #000; }
 
-#thumbs-list { margin: 36px -6px 0 -6px; overflow: hidden; }
+#thumbs-list { margin: 36px -6px 0 -6px; }
 #thumbs-list .item { float: left; }
 #thumbs-list .photo-preview { display: block; position: relative; width: 142px; height: 100px; padding: 5px 5px 5px 5px; transition: opacity 0.15s; -webkit-transition: opacity 0.15s; -moz-transition: opacity 0.15s; -o-transition: opacity 0.15s; }
 #thumbs-list:hover .photo-preview { opacity: 0.45; }
 #thumbs-list .photo-preview:hover { opacity: 1; }
 #thumbs-list .photo-preview .photo { display: block; width: 142px; height: 100px; -moz-border-radius: 2px; border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); }
 
-#controls { position: relative; height: 20px; margin: 21px 0 0; }
+#controls { position: relative; height: 20px; padding: 21px 0 0; clear: both; }
 #controls .caption { position: absolute; left: 300px; right: 300px; text-align: center; font-size: 14px; color: #677282; }
-#controls .playback { position: absolute; left: 0; top: -4px; }
+#controls .playback { position: absolute; left: 0; top: 17px; }
 #controls .playback .prev { display: inline-block; width: 18px; height: 27px; padding-right: 4px; background: url(common.png) no-repeat -100px -125px; }
 #controls .playback .prev:hover { background: url(common.png) no-repeat -150px -125px; }
 #controls .playback .play { display: inline-block; width: 27px; height: 27px; background: url(common.png) no-repeat -100px -25px; }
@@ -65,13 +65,13 @@ body { background: #222f41 url(bg.png) center top; font-family: Arial, Tahoma, s
 #controls .playback .play.playing:hover { background: url(common.png) no-repeat -150px -75px; }
 #controls .playback .next { display: inline-block; width: 18px; height: 27px; padding-left: 4px; background: url(common.png) no-repeat -100px -175px; }
 #controls .playback .next:hover { background: url(common.png) no-repeat -150px -175px; }
-#controls .switch-view { position: absolute; right: -1px; top: -5px; width: 53px; height: 23px; background: url(common.png) no-repeat -200px 0; }
+#controls .switch-view { position: absolute; right: -1px; top: 16px; width: 53px; height: 23px; background: url(common.png) no-repeat -200px 0; }
 #controls .switch-view:hover { background: url(common.png) no-repeat -275px 0; }
 #controls .switch-view.photo { background: url(common.png) no-repeat -200px -25px; }
 #controls .switch-view.photo:hover { background: url(common.png) no-repeat -275px -25px; }
 
 
-#big-photo { margin: 36px -5px 0 -5px; padding: 5px; overflow: hidden; }
+#big-photo { margin: 36px -5px 0 -5px; padding: 5px; }
 #big-photo .photo { display: block; width: 900px; height: 598px; -moz-border-radius: 2px; border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.6), inset 0 0 1px rgba(200,200,200,0.6); }
 
 
